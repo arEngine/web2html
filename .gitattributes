@@ -1,0 +1,22 @@
+* text=auto
+
+*.php diff=php
+
+# These should always be text files
+*.php           text
+*.js            text
+*.htaccess      text
+*.html          text
+*.markdown      text
+*.txt           text
+*.json          text
+*.css           linguist-vendored
+*.less          linguist-vendored
+
+*.min.* binary
+*.ico   binary
+*.gif   binary
+*.png   binary
+*.jpg   binary
+*.ttf   binary
+*.psd   binary
