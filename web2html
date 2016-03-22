@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+
+<?php
+
+use Engine\App;
+
+define('ENGINE_START', microtime(true));
+
+include 'vendor/autoload.php';
+
+$application = new App();
+$application->run();
+
+exit(0);
+
+

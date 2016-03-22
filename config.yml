@@ -1,0 +1,7 @@
+# ###########################
+# GLOBAL CONFIG
+# ###########################
+domain:           www.adrianorosa.com
+storage-path:     html/adrianorosa
+follow-redirects: true
+timeout:          30

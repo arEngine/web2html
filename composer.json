@@ -1,0 +1,24 @@
+{
+    "name": "arEngine/web2html",
+    "description": "A PHP Crawler to convert any website into static html files",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "league/uri": "^4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adriano Rosa",
+            "email": "info@adrianorosa.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Engine\\": "src/"
+      },
+      "files": [
+        "src/functions/helper.php"
+      ]
+    },
+    "minimum-stability": "dev"
+}
